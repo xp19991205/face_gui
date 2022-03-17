@@ -27,6 +27,9 @@
       pip install opencv-python 
       pip install pyqt5 
       pip install dlib 
+      注意，这里使用常规方式无法进行安装，有如下两种方式进行解决：
+      Ⅰ Anaconda Promopt中 使用如下命令进行安装 conda install -c conda-forge dlib
+      Ⅱ 参考安装说明.pdf中提到的部分，安装Visual Studio进行进一步测试
       
  ### 文件下载</br>
  [shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)下载后放入data目录中</br>
